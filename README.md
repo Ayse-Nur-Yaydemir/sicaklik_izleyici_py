@@ -52,6 +52,7 @@ Aşağıdaki ekran görüntüsü, projenin geliştirilmesi veya çalıştırılm
 ## 🚀 Kurulum ve Çalıştırma
 
 Projeyi kendi çalışma alanınızda (ros2_ws/src) çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
+
     cd ~/ros2_ws
     
     colcon build --packages-select sicaklik_izleyici_py
