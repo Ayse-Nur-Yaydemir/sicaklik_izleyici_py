@@ -31,7 +31,7 @@ ROS 2'nin dağıtık iletişim mimarisi sayesinde düğümler birbirlerinden ba�
 
 Terminalde görüntülenen sıcaklık değerleri, sistemin simülasyon amacıyla oluşturduğu ölçüm verilerini temsil etmektedir. Yayıncı düğümün düzenli aralıklarla çalışması sayesinde abone düğüm, sıcaklık değerlerini sürekli olarak alabilmekte ve bu verileri eşik kontrolü için kullanabilmektedir.
 
-![Sensor Düğümü Terminal Çıktısı](sensor.png)
+![İzleyici Düğümü Terminal Çıktısı](izleyici.png)
 
 ### 3. İzleyici Düğümü Terminal Çıktısı
 
@@ -39,7 +39,7 @@ Terminalde görüntülenen sıcaklık değerleri, sistemin simülasyon amacıyla
 
 Sıcaklık değerinin varsayılan `30.0 °C` eşik değerini aşması durumunda sistem, `[WARN]` seviyesinde bir uyarı mesajı üretmektedir. Böylece belirlenen sıcaklık sınırının üzerindeki değerler otomatik olarak tespit edilmekte ve kullanıcıya bildirilmektedir. Eşik değerin parametre aracılığıyla değiştirilebilmesi, sistemin farklı sıcaklık sınırlarına göre yeniden yapılandırılmasına olanak tanımaktadır.
 
-![İzleyici Düğümü Terminal Çıktısı](izleyici.png)
+![Sensor Düğümü Terminal Çıktısı](sensor.png)
 
 ### 4. Ek Ekran Görüntüsü
 
